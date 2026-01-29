@@ -1,4 +1,4 @@
 ## instructions
  - write relevant info in the commit message
- - make new subfolder if required
- - add new instructions as you see fit
+ - make new subfolder(s) if required
+ - add new instruction(s) as you see fit
