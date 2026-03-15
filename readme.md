@@ -26,6 +26,10 @@ to handle complex multi-speaker environments, we used a curriculum learning appr
 * phase 3: dynamic augmentation: applying gain adjustments (±6.0 db) via torch_audiomentations to improve real-world robustness. [see phase 3 notebook](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/labyrinth-training-demucs-augmentation.ipynb)
 * inference: executed on parallel gpus applying the fine-tuned pyannote model on unannotated test files. [see diarization inference notebook](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/labyrinth_diarization_inference.ipynb)
 
+for more details: <\br>
+[slides](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/docs/labyrinth_slides.pdf)
+[arxiv_paper](https://arxiv.org/abs/2602.22935)
+
 ---
 
 ## performance benchmarks
