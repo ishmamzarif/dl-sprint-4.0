@@ -9,7 +9,7 @@ this repository contains the preprocessing, training, and inference pipelines de
 ---
 
 ## **overview**
-* **long-form asr:** fine-tuned [tugstugi](https://huggingface.co/bengaliai/tugstugi) `whisper-medium` model achieving a **0.227 wer**.
+* **long-form asr:** fine-tuned `tugstugi/whisper-medium` model achieving a **0.227 wer**.
 * **speaker diarization:** three-stage *curriculum learning* using `pyannote segmentation 3.0`.
 * **core technology:** `ctc-forced word alignment` for temporal accuracy and source separation (`demucs`) for noise robustness.
 
