@@ -2,6 +2,10 @@
 
 this repository contains the preprocessing, training, and inference pipelines developed by team labyrinth for the buet dl sprint 4.0. our framework addresses the limitations of standard transformer architectures when processing bengali audio files exceeding 30-60 seconds.
 
+## for details: <br>
+- [slides](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/docs/labyrinth_slides.pdf) <br>
+- [arxiv_paper](https://arxiv.org/abs/2602.22935)
+
 ## overview
 * long-form asr: fine-tuned whisper-medium model achieving a 0.227 wer.
 * speaker diarization: three-stage curriculum learning using pyannote segmentation 3.0.
@@ -25,10 +29,6 @@ to handle complex multi-speaker environments, we used a curriculum learning appr
 * phase 2: clean refinement: fine-tuning on audio processed by demucs to isolate distinct speaker embeddings from background noise. [see phase 2 notebook](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/labyrinth-training-demucs2.ipynb)
 * phase 3: dynamic augmentation: applying gain adjustments (±6.0 db) via torch_audiomentations to improve real-world robustness. [see phase 3 notebook](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/labyrinth-training-demucs-augmentation.ipynb)
 * inference: executed on parallel gpus applying the fine-tuned pyannote model on unannotated test files. [see diarization inference notebook](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/labyrinth_diarization_inference.ipynb)
-
-## for more details: <br>
-[slides](https://github.com/ishmamzarif/dl-sprint-4.0/blob/main/docs/labyrinth_slides.pdf) <br>
-[arxiv_paper](https://arxiv.org/abs/2602.22935)
 
 ---
 
