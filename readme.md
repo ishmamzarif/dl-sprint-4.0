@@ -77,6 +77,6 @@ to handle complex **multi-speaker environments**, we used a *curriculum learning
 
 ## **team members**
 * **[zarif ishmam](https://github.com/ishmamzarif)**
-* **[zarif mahir](https://github.com/zarifmahir21)**
+* **[zarif mahir](https://github.com/zarifmahir)**
 * **[md. ishtiak moin](https://github.com/I5htiak-m01n)**
 * **[shafnan wasif](https://github.com/Rohan15035)**
